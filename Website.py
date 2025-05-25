@@ -166,7 +166,7 @@ with tab4:
     st.subheader("Send a Message")
 
     contact_form = """
-    <form action="https://formsubmit.co/omsaisolution@gmail.com" method="POST">
+    <form action="https://formsubmit.co/chandan.gupta92@yahoo.in" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
