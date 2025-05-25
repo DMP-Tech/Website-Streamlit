@@ -4,6 +4,19 @@ import requests
 
 st.set_page_config(page_title="OM SAI TELECOM & SECURITY SOLUTIONS", layout="wide")
 
+st.markdown("""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VZZYFER088"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VZZYFER088');
+</script>
+""", unsafe_allow_html=True)
+
+
 # Load Lottie animation
 def load_lottie_url(url):
     r = requests.get(url)
